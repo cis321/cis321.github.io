@@ -63,7 +63,7 @@
 
 							<div class="slide">
 								<h1><p>{{gift.description}}</p></h1>
-								<h2 ng-show="{{gift.owner != 'none'}}">Escogido por: {{gift.owner}}</h2>
+								<h2 ng-show="{{gift.owner != 'none'}}">Ya fue escogido</h2>
 								<div ng-show="{{gift.owner == 'none'}}">
 									<input type="input" ng-model="currentOwnerName" placeholder="Pon tu nombre">
 									<a class="btn red" ng-click="addOwner(gift, currentOwnerName)">Guardar</a>
