@@ -2138,28 +2138,29 @@ angular.module('ofertasCalendarioApp')
       $scope.showCalendar = false;
     }
 
-   $scope.searchPromos = function () {
+    $scope.searchPromos = function () {
       $scope.departureEventSource = [];
       $scope.arriveEventSource = [];
-	  $scope.existePromocion = false;
+      $scope.sourceIndex = null;
+      $scope.destinationIndex = null;
+      $scope.showCalendar1 = false;
+      $scope.showCalendar2 = false;
       for (var i = 0; i < $scope.events.length; i++) {
         if ($scope.events[i].source === $scope.selectedSource && $scope.events[i].destination === $scope.selectedDestination) {
           $scope.departureEventSource = $scope.events[i].eventSources;
           $scope.sourceIndex = i;
-		  $scope.existePromocion = true;
+          $scope.showCalendar1 = true;
           for (var j = 0; j < $scope.events.length; j++) {
             if ($scope.events[j].destination === $scope.selectedSource && $scope.events[j].source === $scope.selectedDestination) {
               $scope.arriveEventSource = $scope.events[j].eventSources;
               $scope.destinationIndex = j;
               $scope.showFrom = true;
+              $scope.showCalendar2 = true;
               break;
             }
           }
         }
         $scope.showCalendar = true;
-      }
-      if($scope.existePromocion===false){
-        $scope.sourceIndex = -1;
       }
     }
 
