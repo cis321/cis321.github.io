@@ -1,30 +1,31 @@
-<div class="col-md-12">
-  <div class="col-md-6 col-md-offset-4">
+<div class="calendario">
+  <div class="desplegables">
     Origen
-    <select ng-model="selectedSource" ng-options="x for x in sourceCities" /> Destino
-    <select ng-model="selectedDestination" ng-change="searchPromos()" ng-options="x for x in destinationCities" />
+    <select ng-model="selectedSource" ng-change="hideCalendar()" ng-options="x for x in sourceCities" /> Destino
+    <select ng-model="selectedDestination" ng-change="hideCalendar()" ng-options="x for x in destinationCities" />
+    <button type="button" ng-click="searchPromos()">Buscar</button>
   </div>
 </div>
 <br>
 <br>
 <br>
-<div class="col-md-12" ng-if="selectedDestination">
-  <div class="col-md-6">
-    <div class="col-md-6">
-      <h3>{{selectedSource}} - {{selectedDestination}}</h3>
+<div ng-if="showCalendar">
+  <div class="columna1">
+    <div>
+      <h3 class="titulo-origen">{{selectedSource}} - {{selectedDestination}}</h3>
     </div>
-    <div class="col-md-6">
-      <h3>{{events[sourceIndex].value}}</h3>
+    <div>
+      <h3 class="desde">Desde {{events[sourceIndex].value}}</h3>
     </div>
-    <div ui-calendar ng-model="departureEventSource"></div>
+    <div ui-calendar="uiConfig.calendar" ng-model="departureEventSource"></div>
   </div>
-  <div class="col-md-6">
-    <div class="col-md-6">
-      <h3>{{selectedDestination}} - {{selectedSource}}</h2>
+  <div class="columna2">
+    <div>
+      <h3 class="titulo-origen">{{selectedDestination}} - {{selectedSource}}</h2>
     </div>
-    <div class="col-md-6">
-      <h3>{{events[destinationIndex].value}}</h3>
+    <div>
+      <h3 class="desde"><div ng-show="showFrom">Desde </div>&nbsp{{events[destinationIndex].value}}</h3>
     </div>
-    <div ui-calendar ng-model="arriveEventSource"></div>
+    <div ui-calendar="uiConfig.calendar" ng-model="arriveEventSource"></div>
   </div>
 </div>

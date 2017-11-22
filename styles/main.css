@@ -1,3 +1,28 @@
+h2 {
+  font-size: 18px !important;
+  font-family: "verdana" !important;
+}
+
+.container {
+  width: 960px !important;
+}
+
+.calendario{
+  width: 960px;
+}
+
+.columna1{
+  float: left;
+  width: 430px;
+
+}
+
+.columna2{
+  float: left;
+  width: 430px;
+  margin-left: 40px;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -61,6 +86,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
+    width: 960px;
   }
 
   /* Remove the padding we set earlier */
@@ -78,4 +104,55 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+@charset "UTF-8";
+/* CSS Document */
+/*espacios desplegables y centrado*/
+.desplegables{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titulo-origen{
+	color: #96172e;
+    font-family: "verdana";
+    font-size: 19px;
+	font-weight: bold;
+}
+
+.desde{
+	color: #666;
+    font-size: 20px;
+    font-family: "verdana";
+	margin-top: 5px;
+}
+
+.mes{
+	font-size: 18px;
+    font-family: "verdana";
+}
+
+
+.fc-toolbar {
+	margin-top: 20px;
+
+}
+
+
+/*color cuadros calendario*/
+.fc-widget-content {
+    background: #f8f8f8;
+}
+
+.fc-event {
+	line-height: 2.3 !important;
+	border-radius: 0px;
+}
+
+/*quitar dos br ng-scope*/
+
+.fc-scroller {
+	overflow-y: hidden !important;
+  height: 278px !important;
 }
