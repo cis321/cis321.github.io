@@ -13,6 +13,7 @@ angular
     'ngRoute',
     'ui.calendar',
   ])
+  .constant('_', window._)
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

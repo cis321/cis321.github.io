@@ -1,7 +1,7 @@
 <div class="calendario">
   <div class="desplegables">
     Origen
-    <select ng-model="selectedSource" ng-change="hideCalendar()" ng-options="x for x in sourceCities" /> Destino
+    <select ng-model="selectedSource" ng-change="showdestinations()" ng-options="x for x in sourceCities" /> Destino
     <select ng-model="selectedDestination" ng-change="hideCalendar()" ng-options="x for x in destinationCities" />
     <button type="button" ng-click="searchPromos()">Buscar</button>
   </div>

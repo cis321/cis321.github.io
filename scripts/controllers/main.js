@@ -8,9 +8,7 @@
  * Controller of the ofertasCalendarioApp
  */
 angular.module('ofertasCalendarioApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.sourceCities = ['Bogotá', 'Cali', 'Cartagena', 'Medellín', 'Santiago de Chile', ];
-    $scope.destinationCities = ['Aruba', 'Barcelona', 'Boston', 'Cancún', 'Cartagena', 'Ciudad de Guatemala', 'Ciudad de México', 'Cusco', 'Florencia', 'Lima', 'Los Ángeles', 'Madrid', 'Medellín', 'Miami', 'Montería', 'Pereira', 'Punta Cana', 'Quito', 'San José de Costa Rica', 'San Juan de Puerto Rico', 'Santa Marta', 'Valledupar', ];
+  .controller('MainCtrl', function ($scope, _) {
     $scope.events = [{
       source: 'Bogotá',
       destination: 'Santa Marta',
@@ -2133,8 +2131,23 @@ angular.module('ofertasCalendarioApp')
       ],
     }, ];
 
+    function main() {
+      $scope.sourceCities = _.uniq(_.pluck($scope.events, 'source'));
+      $scope.destinationCities = [];
+    };
+
+    main();
+
+    $scope.showdestinations = function functionName() {
+      $scope.hideCalendar()
+
+      $scope.destinationCities = _.pluck(_.filter($scope.events, function (obj) {
+        return obj.source === $scope.selectedSource;
+      }), 'destination');
+
+    }
+
     $scope.hideCalendar = function () {
-      $scope.showCalendar = false;
       $scope.showCalendar = false;
     }
 
