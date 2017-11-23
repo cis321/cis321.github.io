@@ -36,6 +36,7 @@ padding: 3px 10px;
 background: #fff url(../images/arrow.png) no-repeat 100% center;
 -moz-appearance: none;
 -webkit-appearance: none;
+min-width: 220px;
 }
 
 .boton-buscar{
