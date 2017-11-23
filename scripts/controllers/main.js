@@ -3618,7 +3618,7 @@ angular.module('ofertasCalendarioApp')
     }];
 
     function main() {
-      $scope.sourceCities = _.uniq(_.pluck($scope.events, 'source'));
+      $scope.sourceCities = _.uniq(_.pluck(_.sortBy($scope.events, 'source'), 'source'));
       $scope.destinationCities = [];
     };
 
@@ -3627,9 +3627,9 @@ angular.module('ofertasCalendarioApp')
     $scope.showdestinations = function functionName() {
       $scope.hideCalendar()
 
-      $scope.destinationCities = _.pluck(_.filter($scope.events, function (obj) {
+      $scope.destinationCities = _.pluck(_.sortBy(_.filter($scope.events, function (obj) {
         return obj.source === $scope.selectedSource;
-      }), 'destination');
+      }), 'destination'), 'destination');
 
     }
 
