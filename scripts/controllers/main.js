@@ -14,58 +14,58 @@ angular.module('ofertasCalendarioApp')
   		destination: "Ciudad de México",
   		value: "COP 1143534",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 1)",
+  			start: new Date(2018, 1, 1),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 2)",
+  			start: new Date(2018, 1, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 3)",
+  			start: new Date(2018, 1, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 8)",
+  			start: new Date(2018, 1, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 9)",
+  			start: new Date(2018, 1, 9),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 10)",
+  			start: new Date(2018, 1, 10),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 15)",
+  			start: new Date(2018, 1, 15),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 16)",
+  			start: new Date(2018, 1, 16),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 17)",
+  			start: new Date(2018, 1, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 22)",
+  			start: new Date(2018, 1, 22),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 23)",
+  			start: new Date(2018, 1, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 24)",
+  			start: new Date(2018, 1, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 1)",
+  			start: new Date(2018, 2, 1),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 2)",
+  			start: new Date(2018, 2, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 3)",
+  			start: new Date(2018, 2, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 8)",
+  			start: new Date(2018, 2, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 9)",
+  			start: new Date(2018, 2, 9),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 10)",
+  			start: new Date(2018, 2, 10),
   			allDay: true
   		}]]
   	}, {
@@ -73,58 +73,58 @@ angular.module('ofertasCalendarioApp')
   		destination: "Miami",
   		value: "COP 888460",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 3)",
+  			start: new Date(2018, 1, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 4)",
+  			start: new Date(2018, 1, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 5)",
+  			start: new Date(2018, 1, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 8)",
+  			start: new Date(2018, 1, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 14)",
+  			start: new Date(2018, 1, 14),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 16)",
+  			start: new Date(2018, 1, 16),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 17)",
+  			start: new Date(2018, 1, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 21)",
+  			start: new Date(2018, 1, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 23)",
+  			start: new Date(2018, 1, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 24)",
+  			start: new Date(2018, 1, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 28)",
+  			start: new Date(2018, 1, 28),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 1)",
+  			start: new Date(2018, 2, 1),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 2)",
+  			start: new Date(2018, 2, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 3)",
+  			start: new Date(2018, 2, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 4)",
+  			start: new Date(2018, 2, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 7)",
+  			start: new Date(2018, 2, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 8)",
+  			start: new Date(2018, 2, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 10)",
+  			start: new Date(2018, 2, 10),
   			allDay: true
   		}]]
   	}, {
@@ -132,49 +132,49 @@ angular.module('ofertasCalendarioApp')
   		destination: "Medellín",
   		value: "COP 1143534",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 4)",
+  			start: new Date(2018, 1, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 5)",
+  			start: new Date(2018, 1, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 6)",
+  			start: new Date(2018, 1, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 11)",
+  			start: new Date(2018, 1, 11),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 12)",
+  			start: new Date(2018, 1, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 13)",
+  			start: new Date(2018, 1, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 18)",
+  			start: new Date(2018, 1, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 19)",
+  			start: new Date(2018, 1, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 20)",
+  			start: new Date(2018, 1, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 25)",
+  			start: new Date(2018, 1, 25),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 26)",
+  			start: new Date(2018, 1, 26),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 27)",
+  			start: new Date(2018, 1, 27),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 4)",
+  			start: new Date(2018, 2, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 5)",
+  			start: new Date(2018, 2, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 6)",
+  			start: new Date(2018, 2, 6),
   			allDay: true
   		}]]
   	}, {
@@ -182,61 +182,61 @@ angular.module('ofertasCalendarioApp')
   		destination: "Madrid",
   		value: "COP 2289934",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 7)",
+  			start: new Date(2018, 1, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 10)",
+  			start: new Date(2018, 1, 10),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 11)",
+  			start: new Date(2018, 1, 11),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 12)",
+  			start: new Date(2018, 1, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 13)",
+  			start: new Date(2018, 1, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 14)",
+  			start: new Date(2018, 1, 14),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 16)",
+  			start: new Date(2018, 1, 16),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 17)",
+  			start: new Date(2018, 1, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 18)",
+  			start: new Date(2018, 1, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 19)",
+  			start: new Date(2018, 1, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 20)",
+  			start: new Date(2018, 1, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 21)",
+  			start: new Date(2018, 1, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 23)",
+  			start: new Date(2018, 1, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 24)",
+  			start: new Date(2018, 1, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 25)",
+  			start: new Date(2018, 1, 25),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 4)",
+  			start: new Date(2018, 2, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 5)",
+  			start: new Date(2018, 2, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 6)",
+  			start: new Date(2018, 2, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 7)",
+  			start: new Date(2018, 2, 7),
   			allDay: true
   		}]]
   	}, {
@@ -244,43 +244,43 @@ angular.module('ofertasCalendarioApp')
   		destination: "Cartagena",
   		value: "COP 888460",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 10)",
+  			start: new Date(2018, 1, 10),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 11)",
+  			start: new Date(2018, 1, 11),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 12)",
+  			start: new Date(2018, 1, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 15)",
+  			start: new Date(2018, 1, 15),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 21)",
+  			start: new Date(2018, 1, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 23)",
+  			start: new Date(2018, 1, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 24)",
+  			start: new Date(2018, 1, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 28)",
+  			start: new Date(2018, 1, 28),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 2)",
+  			start: new Date(2018, 2, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 3)",
+  			start: new Date(2018, 2, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 7)",
+  			start: new Date(2018, 2, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 8)",
+  			start: new Date(2018, 2, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 9)",
+  			start: new Date(2018, 2, 9),
   			allDay: true
   		}]]
   	}, {
@@ -288,7 +288,7 @@ angular.module('ofertasCalendarioApp')
   		destination: "Barcelona",
   		value: "COP 6388314",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 11)",
+  			start: new Date(2018, 1, 11),
   			allDay: true
   		}]]
   	}, {
@@ -296,49 +296,49 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bucaramanga",
   		value: "COP 2289934",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 14)",
+  			start: new Date(2018, 1, 14),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 17)",
+  			start: new Date(2018, 1, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 18)",
+  			start: new Date(2018, 1, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 19)",
+  			start: new Date(2018, 1, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 20)",
+  			start: new Date(2018, 1, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 21)",
+  			start: new Date(2018, 1, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 23)",
+  			start: new Date(2018, 1, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 24)",
+  			start: new Date(2018, 1, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 25)",
+  			start: new Date(2018, 1, 25),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 26)",
+  			start: new Date(2018, 1, 26),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 27)",
+  			start: new Date(2018, 1, 27),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 1, 28)",
+  			start: new Date(2018, 1, 28),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 2)",
+  			start: new Date(2018, 2, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 3)",
+  			start: new Date(2018, 2, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2018, 2, 4)",
+  			start: new Date(2018, 2, 4),
   			allDay: true
   		}]]
   	}, {
@@ -346,7 +346,7 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 6388314",
   		eventSources: [[{
-  			start: "new Date(2018, 1, 18)",
+  			start: new Date(2018, 1, 18),
   			allDay: true
   		}]]
   	}, {
@@ -354,10 +354,10 @@ angular.module('ofertasCalendarioApp')
   		destination: "San Andrés",
   		value: "COP 119900",
   		eventSources: [[{
-  			start: "new Date(2017, 10, 27)",
+  			start: new Date(2017, 10, 27),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 10, 28)",
+  			start: new Date(2017, 10, 28),
   			allDay: true
   		}]]
   	}, {
@@ -365,31 +365,31 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 99900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 2)",
+  			start: new Date(2017, 11, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 4)",
+  			start: new Date(2017, 11, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 6)",
+  			start: new Date(2017, 11, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 7)",
+  			start: new Date(2017, 11, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 11)",
+  			start: new Date(2017, 11, 11),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 14)",
+  			start: new Date(2017, 11, 14),
   			allDay: true
   		}]]
   	}, {
@@ -397,37 +397,37 @@ angular.module('ofertasCalendarioApp')
   		destination: "Medellín",
   		value: "COP 79900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 2)",
+  			start: new Date(2017, 11, 2),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 3)",
+  			start: new Date(2017, 11, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 4)",
+  			start: new Date(2017, 11, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 9)",
+  			start: new Date(2017, 11, 9),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 11)",
+  			start: new Date(2017, 11, 11),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 25)",
+  			start: new Date(2017, 11, 25),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 26)",
+  			start: new Date(2017, 11, 26),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 27)",
+  			start: new Date(2017, 11, 27),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 28)",
+  			start: new Date(2017, 11, 28),
   			allDay: true
   		}]]
   	}, {
@@ -435,13 +435,13 @@ angular.module('ofertasCalendarioApp')
   		destination: "Medellín",
   		value: "COP 109900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 3)",
+  			start: new Date(2017, 11, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 4)",
+  			start: new Date(2017, 11, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}]]
   	}, {
@@ -449,16 +449,16 @@ angular.module('ofertasCalendarioApp')
   		destination: "Santa Marta",
   		value: "COP 119900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 3)",
+  			start: new Date(2017, 11, 3),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 4)",
+  			start: new Date(2017, 11, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 11)",
+  			start: new Date(2017, 11, 11),
   			allDay: true
   		}]]
   	}, {
@@ -466,22 +466,22 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 229900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 4)",
+  			start: new Date(2017, 11, 4),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 6)",
+  			start: new Date(2017, 11, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 8)",
+  			start: new Date(2017, 11, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}]]
   	}, {
@@ -489,16 +489,16 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 119900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 6)",
+  			start: new Date(2017, 11, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 14)",
+  			start: new Date(2017, 11, 14),
   			allDay: true
   		}]]
   	}, {
@@ -506,22 +506,22 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 79900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 6)",
+  			start: new Date(2017, 11, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 15)",
+  			start: new Date(2017, 11, 15),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 19)",
+  			start: new Date(2017, 11, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 25)",
+  			start: new Date(2017, 11, 25),
   			allDay: true
   		}]]
   	}, {
@@ -529,25 +529,25 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 99900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 7)",
+  			start: new Date(2017, 11, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 8)",
+  			start: new Date(2017, 11, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 9)",
+  			start: new Date(2017, 11, 9),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 14)",
+  			start: new Date(2017, 11, 14),
   			allDay: true
   		}]]
   	}, {
@@ -555,37 +555,37 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 79900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 14)",
+  			start: new Date(2017, 11, 14),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 18)",
+  			start: new Date(2017, 11, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 19)",
+  			start: new Date(2017, 11, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 20)",
+  			start: new Date(2017, 11, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 21)",
+  			start: new Date(2017, 11, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 22)",
+  			start: new Date(2017, 11, 22),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 23)",
+  			start: new Date(2017, 11, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}]]
   	}, {
@@ -593,10 +593,10 @@ angular.module('ofertasCalendarioApp')
   		destination: "Cartagena",
   		value: "COP 109900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 5)",
+  			start: new Date(2017, 11, 5),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}]]
   	}, {
@@ -604,70 +604,70 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 79900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 6)",
+  			start: new Date(2017, 11, 6),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 7)",
+  			start: new Date(2017, 11, 7),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 8)",
+  			start: new Date(2017, 11, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 9)",
+  			start: new Date(2017, 11, 9),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 12)",
+  			start: new Date(2017, 11, 12),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 13)",
+  			start: new Date(2017, 11, 13),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 14)",
+  			start: new Date(2017, 11, 14),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 15)",
+  			start: new Date(2017, 11, 15),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 16)",
+  			start: new Date(2017, 11, 16),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 17)",
+  			start: new Date(2017, 11, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 18)",
+  			start: new Date(2017, 11, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 19)",
+  			start: new Date(2017, 11, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 20)",
+  			start: new Date(2017, 11, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 21)",
+  			start: new Date(2017, 11, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 22)",
+  			start: new Date(2017, 11, 22),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 23)",
+  			start: new Date(2017, 11, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 25)",
+  			start: new Date(2017, 11, 25),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 27)",
+  			start: new Date(2017, 11, 27),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 28)",
+  			start: new Date(2017, 11, 28),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 29)",
+  			start: new Date(2017, 11, 29),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 30)",
+  			start: new Date(2017, 11, 30),
   			allDay: true
   		}]]
   	}, {
@@ -675,40 +675,40 @@ angular.module('ofertasCalendarioApp')
   		destination: "Bogotá",
   		value: "COP 99900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 8)",
+  			start: new Date(2017, 11, 8),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 15)",
+  			start: new Date(2017, 11, 15),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 16)",
+  			start: new Date(2017, 11, 16),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 17)",
+  			start: new Date(2017, 11, 17),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 18)",
+  			start: new Date(2017, 11, 18),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 19)",
+  			start: new Date(2017, 11, 19),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 20)",
+  			start: new Date(2017, 11, 20),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 21)",
+  			start: new Date(2017, 11, 21),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 22)",
+  			start: new Date(2017, 11, 22),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 23)",
+  			start: new Date(2017, 11, 23),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}, {
-  			start: "new Date(2017, 11, 25)",
+  			start: new Date(2017, 11, 25),
   			allDay: true
   		}]]
   	}, {
@@ -716,7 +716,7 @@ angular.module('ofertasCalendarioApp')
   		destination: "Medellín",
   		value: "COP 89900",
   		eventSources: [[{
-  			start: "new Date(2017, 11, 24)",
+  			start: new Date(2017, 11, 24),
   			allDay: true
   		}]]
   	} ];
