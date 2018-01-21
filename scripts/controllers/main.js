@@ -818,7 +818,7 @@ angular.module('ofertasCalendarioApp')
           center: '',
           right: 'prev,next',
         },
-        moment: '2018-04-01',
+        defaultDate: '2018-04-01',
       },
     };
 
