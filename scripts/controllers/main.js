@@ -8,7 +8,7 @@
  * Controller of the ofertasCalendarioApp
  */
 angular.module('ofertasCalendarioApp')
-  .controller('MainCtrl', function ($scope, _) {
+  .controller('MainCtrl', function($scope, _) {
     $scope.events = [{
       source: "Yopal",
       destination: "Bogotá",
@@ -8487,26 +8487,26 @@ angular.module('ofertasCalendarioApp')
       ]
     }];
 
-    function main () {
+    function main() {
       $scope.sourceCities = _.uniq(_.pluck(_.sortBy($scope.events, 'source'), 'source'));
       $scope.destinationCities = [];
     }
 
     main();
 
-    $scope.showdestinations = function functionName () {
+    $scope.showdestinations = function functionName() {
       $scope.hideCalendar()
 
-      $scope.destinationCities = _.pluck(_.sortBy(_.filter($scope.events, function (obj) {
+      $scope.destinationCities = _.pluck(_.sortBy(_.filter($scope.events, function(obj) {
         return obj.source === $scope.selectedSource;
       }), 'destination'), 'destination');
     }
 
-    $scope.hideCalendar = function () {
+    $scope.hideCalendar = function() {
       $scope.showCalendar = false;
     }
 
-    $scope.searchPromos = function () {
+    $scope.searchPromos = function() {
       $scope.departureEventSource = [];
       $scope.arriveEventSource = [];
       $scope.sourceIndex = null;
