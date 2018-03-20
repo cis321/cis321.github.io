@@ -8986,7 +8986,8 @@ angular.module('ofertasCalendarioApp')
 		{
 		start:"new Date(2018, 4, 29)",
 		allDay:true
-		}]}];
+		 }]]
+    }];
 
     function main() {
       $scope.sourceCities = _.uniq(_.pluck(_.sortBy($scope.events, 'source'), 'source'));
