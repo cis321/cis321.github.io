@@ -8,6 +8,7 @@
  * Controller of the ofertasCalendarioApp
  */
 angular.module('ofertasCalendarioApp')
+  .controller('MainCtrl', function($scope, _) {
     $scope.events = 		[{source:"Cartagena",
 		destination:"Bogotá",
 		value:"COP 109900",
