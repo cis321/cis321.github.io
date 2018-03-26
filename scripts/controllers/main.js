@@ -1,3 +1,4 @@
+
 'use strict';
 
 /**
@@ -9,8 +10,7 @@
  */
 angular.module('ofertasCalendarioApp')
   .controller('MainCtrl', function($scope, _) {
-    $scope.events = 	
-		[{source:"Cali",
+    $scope.events = 			[{source:"Cali",
 		destination:"Cartagena",
 		value:"COP 149900",
 		eventSources:[[{
@@ -142,7 +142,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Cartagena",
 		value:"COP 109900",
@@ -305,7 +305,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Medellín",
 		destination:"Cartagena",
 		value:"COP 119900",
@@ -444,7 +444,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cali",
 		destination:"Tumaco",
 		value:"COP 199900",
@@ -619,7 +619,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Ibagué",
 		value:"COP 179900",
@@ -800,7 +800,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Villavicencio",
 		destination:"Bogotá",
 		value:"COP 169900",
@@ -966,7 +966,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Santa Marta",
 		value:"COP 129900",
@@ -1120,7 +1120,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"San Andrés",
 		value:"COP 169900",
@@ -1202,7 +1202,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Bucaramanga",
 		value:"COP 139900",
@@ -1362,7 +1362,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Valledupar",
 		value:"COP 149900",
@@ -1468,7 +1468,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 29),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cali",
 		destination:"San Andrés",
 		value:"COP 139900",
@@ -1574,7 +1574,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Cúcuta",
 		value:"COP 159900",
@@ -1740,7 +1740,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bucaramanga",
 		destination:"Bogotá",
 		value:"COP 139900",
@@ -1912,7 +1912,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Pereira",
 		value:"COP 109900",
@@ -2084,7 +2084,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Medellín",
 		value:"COP 109900",
@@ -2247,7 +2247,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Tumaco",
 		destination:"Cali",
 		value:"COP 199900",
@@ -2422,7 +2422,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Pereira",
 		destination:"Bogotá",
 		value:"COP 109900",
@@ -2585,7 +2585,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Florencia",
 		destination:"Bogotá",
 		value:"COP 249900",
@@ -2751,7 +2751,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Ibagué",
 		destination:"Bogotá",
 		value:"COP 179900",
@@ -2923,7 +2923,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Medellín",
 		destination:"Santa Marta",
 		value:"COP 149800",
@@ -3065,7 +3065,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Barrancabermeja",
 		destination:"Bogotá",
 		value:"COP 159900",
@@ -3201,7 +3201,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cartagena",
 		destination:"Cali",
 		value:"COP 149900",
@@ -3352,7 +3352,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Barranquilla",
 		value:"COP 109900",
@@ -3515,7 +3515,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cartagena",
 		destination:"Bogotá",
 		value:"COP 109900",
@@ -3654,7 +3654,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cartagena",
 		destination:"Medellín",
 		value:"COP 119900",
@@ -3775,7 +3775,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Medellín",
 		destination:"Bogotá",
 		value:"COP 109900",
@@ -3944,7 +3944,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Riohacha",
 		value:"COP 169900",
@@ -4074,7 +4074,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Villavicencio",
 		value:"COP 169900",
@@ -4198,7 +4198,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Florencia",
 		value:"COP 249900",
@@ -4358,7 +4358,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Montería",
 		value:"COP 119900",
@@ -4485,7 +4485,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"San Andrés",
 		destination:"Cali",
 		value:"COP 139900",
@@ -4597,7 +4597,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Barrancabermeja",
 		value:"COP 159900",
@@ -4688,7 +4688,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Santa Marta",
 		destination:"Bogotá",
 		value:"COP 129900",
@@ -4815,7 +4815,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Santa Marta",
 		destination:"Cali",
 		value:"COP 169900",
@@ -4933,7 +4933,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Yopal",
 		destination:"Bogotá",
 		value:"COP 89900",
@@ -5090,7 +5090,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Barranquilla",
 		destination:"Bogotá",
 		value:"COP 109900",
@@ -5253,7 +5253,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Santa Marta",
 		destination:"Medellín",
 		value:"COP 149800",
@@ -5374,7 +5374,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Yopal",
 		value:"COP 89900",
@@ -5456,7 +5456,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Valledupar",
 		destination:"Bogotá",
 		value:"COP 149900",
@@ -5523,7 +5523,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 29),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cali",
 		destination:"Bogotá",
 		value:"COP 149900",
@@ -5635,7 +5635,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cali",
 		destination:"Santa Marta",
 		value:"COP 169900",
@@ -5711,7 +5711,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 29),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Cali",
 		value:"COP 149900",
@@ -5826,7 +5826,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 29),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cali",
 		destination:"Pasto",
 		value:"COP 199900",
@@ -5896,7 +5896,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Cúcuta",
 		destination:"Bogotá",
 		value:"COP 159900",
@@ -6035,7 +6035,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Bogotá",
 		destination:"Pasto",
 		value:"COP 219900",
@@ -6105,7 +6105,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 30),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Montería",
 		destination:"Bogotá",
 		value:"COP 119900",
@@ -6250,7 +6250,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Riohacha",
 		destination:"Bogotá",
 		value:"COP 169900",
@@ -6356,7 +6356,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Pasto",
 		destination:"Cali",
 		value:"COP 199900",
@@ -6429,7 +6429,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 29),
 		allDay:true
-		}]},
+		}]]},
 		{source:"San Andrés",
 		destination:"Bogotá",
 		value:"COP 169900",
@@ -6496,7 +6496,7 @@ angular.module('ofertasCalendarioApp')
 		},
 		{start:new Date(2018, 4, 31),
 		allDay:true
-		}]},
+		}]]},
 		{source:"Pasto",
 		destination:"Bogotá",
 		value:"COP 219900",
@@ -6548,8 +6548,8 @@ angular.module('ofertasCalendarioApp')
 			}]]
 
 		}];
-
-    function main() {
+		
+	function main() {
       $scope.sourceCities = _.uniq(_.pluck(_.sortBy($scope.events, 'source'), 'source'));
       $scope.destinationCities = [];
     }
@@ -6610,4 +6610,3 @@ angular.module('ofertasCalendarioApp')
     $scope.uiConfig.calendar.dayNamesShort = ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', ];
     $scope.uiConfig.calendar.monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre', ];
   });
-	
