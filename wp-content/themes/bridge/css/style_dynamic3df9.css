@@ -473,7 +473,6 @@
     .drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post,
     .drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a {
       color: #9d9d9d;
-      font-family: 'Open Sans', sans-serif;
       font-size: 13px;
       font-weight: 500;
       text-transform: capitalize;
@@ -509,9 +508,7 @@
     }
 
     nav.mobile_menu ul li a,
-    nav.mobile_menu ul li h3 {
-      font-family: 'Open Sans', sans-serif;
-    }
+    nav.mobile_menu ul li h3 {}
 
     #respond textarea,
     #respond input[type='text'],
@@ -534,13 +531,11 @@
     h1,
     .h1,
     .title h1 {
-      font-family: 'Open Sans', sans-serif;
       letter-spacing: 3px;
     }
 
     .title h1 {
       color: #ffffff;
-      font-family: 'Open Sans', sans-serif;
       font-weight: 300;
     }
 
@@ -552,7 +547,6 @@
     .h2,
     h2 a {
       color: #000000;
-      font-family: 'Open Sans', sans-serif;
       font-size: 34px;
       font-weight: 400;
       letter-spacing: 2px;
@@ -563,7 +557,6 @@
     .h3,
     h3 a {
       color: #000000;
-      font-family: 'Open Sans', sans-serif;
       font-size: 25px;
       letter-spacing: 2px;
     }
@@ -572,7 +565,6 @@
     .h4,
     h4 a {
       color: #848484;
-      font-family: 'Open Sans', sans-serif;
       font-size: 17px;
       line-height: 29px;
       font-style: italic;
@@ -585,7 +577,6 @@
     h5 a,
     .q_icon_with_title .icon_text_holder h5.icon_title {
       color: #000000;
-      font-family: 'Open Sans', sans-serif;
       font-size: 14px;
       line-height: 20px;
       letter-spacing: 2px;
@@ -596,14 +587,12 @@
     .h6,
     h6 a {
       color: #000000;
-      font-family: 'Open Sans', sans-serif;
       font-size: 12px;
       letter-spacing: 0px;
     }
 
     p {
       color: #848484;
-      font-family: 'Open Sans', sans-serif;
       font-size: 13px;
       line-height: 24px;
       font-weight: 300;
