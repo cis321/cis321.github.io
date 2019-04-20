@@ -379,7 +379,7 @@ html {
 
 body {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 0px;
   color: #818181;
   font-weight: 400;
   overflow-y: scroll;
@@ -15246,7 +15246,8 @@ aside #lang_sel img.iclflag, aside #lang_sel_click img.iclflag, footer #lang_sel
   display: block;
   position: relative;
   width: 100%;
-  z-index: 10
+  z-index: 10;
+  max-height: 401px;
 }
 
 .q_image_with_text_over .shader, .q_image_with_text_over .shader_hover {
