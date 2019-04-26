@@ -106,6 +106,110 @@
 			text-align: justify;
 			text-justify: inter-word;
 		}
+
+		textarea,
+		input {
+			outline: none;
+			box-shadow: none;
+			border: 0px;
+			background-color: rgba(230, 230, 230, 0.65);
+		}
+
+		textarea,
+		input::placeholder {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			opacity: 1;
+			color: #444444;
+		}
+
+		textarea,
+		input::-webkit-input-placeholder {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			opacity: 1;
+			color: #444444;
+		}
+
+		textarea,
+		input:-ms-input-placeholder {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			opacity: 1;
+			color: #444444;
+		}
+
+		textarea,
+		input:-moz-placeholder {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			opacity: 1;
+			color: #444444;
+		}
+
+		textarea,
+		input::-moz-placeholder {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			opacity: 1;
+			color: #444444;
+		}
+
+		.first-name {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			margin-top: 100px;
+			margin-left: 20%;
+			margin-right: 0.5%;
+			width: 18%;
+			position: relative;
+			height: 40px;
+		}
+
+		.last-name {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			margin-top: 100px;
+			margin-left: 0.5%;
+			margin-right: 0.5%;
+			width: 18%;
+			position: relative;
+			height: 40px;
+		}
+
+		.email {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			margin-top: 100px;
+			margin-left: 0.5%;
+			margin-right: 19%;
+			width: 18%;
+			position: relative;
+			height: 40px;
+		}
+
+		.message {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			margin-top: 10px;
+			margin-left: 20%;
+			margin-right: 20%;
+			width: 56.5%;
+			resize: none;
+			position: relative;
+			height: 350px;
+		}
+
+		.send-button {
+			font-family: 'Ænigma Scrawl (BRK)';
+			font-size: 20px;
+			margin-top: 10px;
+			margin-left: 69.5%;
+			width: 7%;
+			border: 0px;
+			height: 40px;
+			background-color: rgba(200, 200, 200);
+		}
 	</style>
 	<link rel='stylesheet' id='qode_print-css' href='wp-content/themes/bridge/css/print8e83.css?ver=4.9.10' type='text/css' media='all' />
 	<link rel='stylesheet' id='style_dynamic-css' href='wp-content/themes/bridge/css/style_dynamic3df9.css?ver=1540322956' type='text/css' media='all' />
@@ -263,9 +367,11 @@
 
 								<div class="contact-hover">
 									<form action="" method="POST">
-										<input type="text" name="name" class="name" placeholder="Full Name">
-										<input type="email" name="email" class="email" placeholder="Email" required>
-										<button class="submit">Send the Mail</button>
+										<input class="first-name" type="text" name="first-name" placeholder="First Name">
+										<input class="last-name" type="text" name="last-name" placeholder="Last Name">
+										<input class="email" type="email" name="email" placeholder="Email" required>
+										<textarea class="message" type="text" name="message" placeholder="Message"></textarea>
+										<button class="send-button">Send</button>
 									</form>
 								</div>
 								<div class="wpb_column vc_column_container vc_col-sm-4">
@@ -316,41 +422,6 @@
 	</div>
 	</div>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/qode-like.min8e83.js?ver=4.9.10'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/accordion.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/menu.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/autocomplete.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/button.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/resizable.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/dialog.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/droppable.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/progressbar.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/selectable.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/sortable.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/spinner.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/tooltip.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-blind.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-bounce.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-clip.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-drop.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-explode.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-fade.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-fold.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-highlight.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-pulsate.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-size.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-scale.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-shake.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-slide.mine899.js?ver=1.11.4'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-transfer.mine899.js?ver=1.11.4'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/jquery.carouFredSel-6.2.1.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/lemmon-slider.min8e83.js?ver=4.9.10'></script>
@@ -366,7 +437,6 @@
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default_dynamic3df9.js?ver=1540322956'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/custom_js3df9.js?ver=1540322956'></script>
-	<script type='text/javascript' src='wp-includes/js/comment-reply.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min24b2.js?ver=5.5.5'></script>
 </body>
 
