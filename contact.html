@@ -77,6 +77,13 @@
 			height: 100%;
 		}
 
+		.contact-hover {
+			position: fixed;
+			z-index: 9000;
+			height: 100%;
+			width: 100%;
+		}
+
 		.about-title {
 			font-family: 'Ænigma Scrawl (BRK)';
 			margin-top: 150px;
@@ -110,6 +117,8 @@
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery7923.js?ver=5.3.1'></script>
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.transitions7923.js?ver=5.3.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min23da.js?ver=5.4.8'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min23da.js?ver=5.4.8'></script>
 	<script>
 		function openAbout() {
 			document.getElementById("About").style.display = "block";
@@ -141,23 +150,20 @@
 												<i class="qode_icon_font_awesome fa fa-bars "></i> </span>
 										</div>
 										<div class="logo_wrapper">
-											<div class="q_logo">
-												<a itemprop="url" href="index.html">
-													<img itemprop="image" class="light" src="http://demo.qodeinteractive.com/bridge21/wp-content/uploads/2014/05/logo_white.png" alt="Logo" />
-													<img itemprop="image" class="dark" src="wp-content/jpv/name.png" alt="Logo" />
-													<img itemprop="image" class="sticky" src="wp-content/jpv/name.png" alt="Logo" />
-												</a>
-											</div>
+											<a itemprop="url" href="index.html" style="visibility: visible;">
+												<img itemprop="image" class="normal" src="wp-content/jpv/name.png" alt="Logo" style="padding-top: 20px;height: 60px;" />
+											</a>
 										</div>
 									</div>
 									<div class="header_inner_right">
-										<div class="side_menu_button_wrapper right">
-											<div class="header_bottom_right_widget_holder">
-												<div class="widget_text header_bottom_widget widget_custom_html">
-
-												</div>
-											</div>
+										<div class="side_menu_button_wrapper ">
 											<div class="side_menu_button">
+												<a href="">
+													<img src="wp-content/jpv/Facebook_PNG8.png" style="height: 40px" />
+												</a>
+												<a href="">
+													<img src="wp-content/jpv/instagram_PNG8.png" style="height: 41px" />
+												</a>
 											</div>
 										</div>
 									</div>
@@ -178,7 +184,6 @@
 													</div>
 												</div>
 											</li>
-											<li id="nav-menu-item-16869" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="contact.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Contact</span><span class="plus"></span></a></li>
 										</ul>
 									</nav>
 									<nav class="mobile_menu">
@@ -251,207 +256,54 @@
 							</p>
 						</div>
 					</div>
-					<div class="q_slider">
-						<div class="q_slider_inner">
-							<div id="qode-home-slider-5" class="carousel slide  full_screen  q_auto_start   header_not_transparent" data-slide_animation="6000" data-parallax="yes" style="">
-								<div class="qode_slider_preloader">
-									<div class="ajax_loader" style="margin-top:50px;">
-										<div class="ajax_loader_1">
-											<div class="wave">
-												<div class="bounce1"></div>
-												<div class="bounce2"></div>
-												<div class="bounce3"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="carousel-inner " data-start="transform: translateY(0px);" data-1440="transform: translateY(-500px);">
-									<div class="item">
-										<div class="image" style="background-image:url(wp-content/jpv/Devil.png);"><img itemprop="image" src="wp-content/jpv/Devil_Choice.png" alt="VELASQUEZ"></div>
-										<div class="slider_content_outer">
-											<div class="slider_content center" style="width:98%;left:1%;top:40%;" data-0=" opacity: 1; width:98%; left:1%; top:40%;" data-300=" opacity: 0; left:1%; top:30%;">
-												<div class="text all_at_once no_subtitle no_separator">
-													<div>
-														<h2 class=" " style="line-height: 100px;font-family: 'century-gothic';"><span style="">VELASQUEZ</span></h2>
-													</div>
-													<p class="q_slide_text" style="text-shadow: none;;font-size: 24px;line-height: 24px;font-style: italic;font-weight: 300"><span></span></p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="full_width">
-						<div class="full_width_inner">
-							<div class="vc_row wpb_row section vc_row-fluid " style=' text-align:right;'>
-								<div class=" full_section_inner clearfix">
-									<div class="wpb_column vc_column_container vc_col-sm-12">
-										<div class="vc_column-inner">
-											<div class="wpb_wrapper">
-												<div class="vc_single_image-wrapper   vc_box_border_grey" style="height: 300px;">
-													<div style="padding-top: 250px;">
-														<img class=" vc_single_image-img " src=" wp-content/jpv/name.png" width="200" height="50" alt="conor-harrington-logo-retina" title="conor-harrington-logo-retina" style="padding-right: 201px;">
-														<p class="custom-font" style="margin-top: -31px; padding-right: 100px;">Follow me on!</p>
-														<div style="padding-left: 8px;margin-top: -30px;">
-															<a href="">
-																<img src="wp-content/jpv/Facebook_PNG8.png" style="height: 40px" />
-															</a>
-															<a href="">
-																<img src="wp-content/jpv/instagram_PNG8.png" style="height: 41px" />
-															</a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<section data-q_title="Portfolio List" data-q_icon="fa-list" data-speed="1" class="parallax_section_holder" style=" background-image:url('wp-content/jpv/Road.png'); padding-top:-50px;">
-							<div class="parallax_content left">
-								<div class='parallax_section_inner_margin clearfix'>
-									<div class=" ">
-										<div class="vc_column-inner">
-											<div class="wpb_wrapper">
-												<div class="separator  transparent center  " style="margin-top: 100px;margin-bottom: 30px;"></div>
-												<div class="separator  transparent center  " style="margin-top: 145px;margin-bottom: 0px;"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
 
 						<div class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
-							<div class=" full_section_inner clearfix">
+							<div class=" full_section_inner clearfix" style="padding-top: 102px;">
+
+								<div class="contact-hover">
+									<form action="" method="POST">
+										<input type="text" name="name" class="name" placeholder="Full Name">
+										<input type="email" name="email" class="email" placeholder="Email" required>
+										<button class="submit">Send the Mail</button>
+									</form>
+								</div>
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Madre1_Choice.png" alt="INSIDE" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Madre2_Choice.png" alt="concept-art" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/TheThugs_Choice.png" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Video01_Choice.png" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="animation/index.html" target="_self" class="image-fade" style="">Animation</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Graphic Desing.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="graphic-desing/index.html" target="_self" class="image-fade" style="">Graphic Desing</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
 								<div class="wpb_column vc_column_container vc_col-sm-4">
 									<div class="q_image_with_text_over">
 										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Sketch.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="sketch/index.html" target="_self" class="image-fade" style="">Sketch</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
 									</div>
 								</div>
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Murales.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="murals/index.html" target="_self" class="image-fade" style="">Murals</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-						<div class="vc_row wpb_row section vc_row-fluid  grid_section" style='background-color:#ffffff; padding-top:20px; padding-bottom:20px; text-align:center;'>
-							<div class=" section_inner clearfix">
-								<div class='section_inner_margin clearfix'>
-									<div class="wpb_column vc_column_container vc_col-sm-12">
-										<div class="vc_column-inner">
-											<div class="wpb_wrapper">
-												<div class="separator  transparent center  " style=""></div>
-												<div class="wpb_text_column wpb_content_element ">
-													<div class="wpb_wrapper">
-														<p style="text-align: center;">Website by <a href="https://github.com/cis321" target="_blank">Cis</a></p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 
@@ -464,6 +316,41 @@
 	</div>
 	</div>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/qode-like.min8e83.js?ver=4.9.10'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/accordion.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/menu.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/autocomplete.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/button.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/datepicker.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/resizable.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/dialog.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/droppable.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/progressbar.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/selectable.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/sortable.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/slider.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/spinner.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/tooltip.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-blind.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-bounce.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-clip.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-drop.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-explode.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-fade.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-fold.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-highlight.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-pulsate.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-size.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-scale.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-shake.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-slide.mine899.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-transfer.mine899.js?ver=1.11.4'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/jquery.carouFredSel-6.2.1.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/lemmon-slider.min8e83.js?ver=4.9.10'></script>
@@ -479,6 +366,7 @@
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default_dynamic3df9.js?ver=1540322956'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/custom_js3df9.js?ver=1540322956'></script>
+	<script type='text/javascript' src='wp-includes/js/comment-reply.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min24b2.js?ver=5.5.5'></script>
 </body>
 
