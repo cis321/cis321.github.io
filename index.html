@@ -8,25 +8,12 @@
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="pingback" href="xmlrpc.php" />
-	<link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic|Open+Sans:100,200,300,400,500,600,700,800,900,300italic,400italic,700italic&amp;subset=latin,latin-ext' rel='stylesheet'
-	  type='text/css'>
-	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-	<link rel='dns-prefetch' href='http://s.w.org/' />
-	<link rel="alternate" type="application/rss+xml" title="Juan Pablo Velasquez &raquo; Feed" href="feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Juan Pablo Velasquez &raquo; Comments Feed" href="comments/feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="Juan Pablo Velasquez &raquo; Home Comments Feed" href="home/feed/index.html" />
 	<link rel='stylesheet' id='layerslider-css' href='wp-content/plugins/LayerSlider/static/css/layerslider7923.css?ver=5.3.1' type='text/css' media='all' />
-	<link rel='stylesheet' id='ls-google-fonts-css' href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
 	<link rel='stylesheet' id='bwg_sumoselect-css' href='wp-content/plugins/photo-gallery/css/sumoselect.min19ce.css?ver=3.0.3' type='text/css' media='all' />
 	<link rel='stylesheet' id='bwg_font-awesome-css' href='wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.min4698.css?ver=4.6.3' type='text/css' media='all' />
 	<link rel='stylesheet' id='bwg_mCustomScrollbar-css' href='wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min7976.css?ver=1.5.6' type='text/css' media='all' />
 	<link rel='stylesheet' id='bwg_frontend-css' href='wp-content/plugins/photo-gallery/css/bwg_frontend7976.css?ver=1.5.6' type='text/css' media='all' />
 	<link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/settings23da.css?ver=5.4.8' type='text/css' media='all' />
-	<style id='rs-plugin-settings-inline-css' type='text/css'>
-		#rs-demo-id {}
-	</style>
 	<link rel='stylesheet' id='default_style-css' href='wp-content/themes/bridge/style8e83.css?ver=4.9.10' type='text/css' media='all' />
 	<link rel='stylesheet' id='qode_font_awesome-css' href='wp-content/themes/bridge/css/font-awesome/css/font-awesome.min8e83.css?ver=4.9.10' type='text/css' media='all' />
 	<link rel='stylesheet' id='qode_font_elegant-css' href='wp-content/themes/bridge/css/elegant-icons/style.min8e83.css?ver=4.9.10' type='text/css' media='all' />
@@ -99,13 +86,60 @@
 			text-align: justify;
 			text-justify: inter-word;
 		}
+
+		.my-gallery {
+			width: 100%;
+			float: left;
+		}
+
+		.my-gallery img {
+			width: 100%;
+			height: auto;
+		}
+
+		.my-gallery figure {
+			display: block;
+			float: left;
+			margin: 0 0 0 0;
+			width: 33.3%;
+		}
+
+		.my-gallery figcaption {
+			display: none;
+		}
+
+		.shade:hover {
+			background-color: rgba(150, 150, 150, 0.5);
+			color: #000000;
+			font-family: 'Ænigma Scrawl (BRK)';
+			text-align: center;
+			line-height: 400px;
+			font-size: 30px;
+			opacity: 1;
+			font-weight: bold;
+		}
+
+		.shade {
+			float: left;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: 1000;
+			height: 395px;
+			width: 33.3%;
+			line-height: -100px;
+			font-size: 1px;
+			opacity: 0.1;
+		}
 	</style>
-	<link rel='stylesheet' id='qode_print-css' href='wp-content/themes/bridge/css/print8e83.css?ver=4.9.10' type='text/css' media='all' />
+	<!-- <link rel='stylesheet' id='qode_print-css' href='wp-content/themes/bridge/css/print8e83.css?ver=4.9.10' type='text/css' media='all' /> -->
 	<link rel='stylesheet' id='style_dynamic-css' href='wp-content/themes/bridge/css/style_dynamic3df9.css?ver=1540322956' type='text/css' media='all' />
 	<link rel='stylesheet' id='responsive-css' href='wp-content/themes/bridge/css/responsive.min8e83.css?ver=4.9.10' type='text/css' media='all' />
 	<link rel='stylesheet' id='style_dynamic_responsive-css' href='wp-content/themes/bridge/css/style_dynamic_responsive3df9.css?ver=1540322956' type='text/css' media='all' />
 	<link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/assets/css/js_composer.min24b2.css?ver=5.5.5' type='text/css' media='all' />
 	<link rel='stylesheet' id='custom_css-css' href='wp-content/themes/bridge/css/custom_css3df9.css?ver=1540322956' type='text/css' media='all' />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/greensockcd11.js?ver=1.11.8'></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery7923.js?ver=5.3.1'></script>
@@ -118,12 +152,14 @@
 		function closeAbout() {
 			document.getElementById("About").style.display = "none";
 		}
+
+		function initPhotoSwipe() {
+			initPhotoSwipeFromDOM('.my-gallery');
+		}
 	</script>
 </head>
 
-<body class="home page-template page-template-full_width page-template-full_width-php page page-id-15234  qode-title-hidden qode-theme-ver-16.9 qode-theme-bridge disabled_footer_top disabled_footer_bottom qode_header_in_grid wpb-js-composer js-comp-ver-5.5.5 vc_responsive"
-  itemscope itemtype="http://schema.org/WebPage">
-
+<body class="home page-template page-template-full_width page-template-full_width-php page page-id-15234  qode-title-hidden qode-theme-ver-16.9 qode-theme-bridge disabled_footer_top disabled_footer_bottom qode_header_in_grid wpb-js-composer js-comp-ver-5.5.5 vc_responsive">
 
 	<div class="wrapper">
 		<div class="wrapper_inner">
@@ -169,7 +205,7 @@
 												<div class="second">
 													<div class="inner">
 														<ul>
-															<li id="nav-menu-item-16819" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="concept-art/index.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Concept Art</span><span class="plus"></span></a></li>
+															<li id="nav-menu-item-16819" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="concept-art/index.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Concept Art</span><span class="plus"></span></a></li>
 															<li id="nav-menu-item-16820" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="animation/index.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Animation</span><span class="plus"></span></a></li>
 															<li id="nav-menu-item-16821" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="sketches/index.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Sketches</span><span class="plus"></span></a></li>
 															<li id="nav-menu-item-16821" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="murals/index.html" class="custom-font"><i class="menu_icon blank fa"></i><span>Murals</span><span class="plus"></span></a></li>
@@ -326,141 +362,142 @@
 							</div>
 						</section>
 
-						<div class="vc_row wpb_row section vc_row-fluid " style=' text-align:left;'>
-							<div class=" full_section_inner clearfix">
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Madre1_Choice.png" alt="INSIDE" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
-									</div>
-								</div>
+						<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+							<div class="q_image_with_text_over">
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Madre2_Choice.png" alt="concept-art" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
-										</div>
-									</div>
-								</div>
+								<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/TheThugs_Choice.png" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="concept-art/index.html" target="_self" class="image-fade" style="">Concept Art</a></div>
-													</td>
-												</tr>
-											</table>
+									<a class="mouse-over" href="wp-content/jpv/TheThugs.png" itemprop="contentUrl" data-size="1424x1024">
+										<div class="shade">
+											Concept Art
 										</div>
-									</div>
-								</div>
+										<img src="wp-content/jpv/TheThugs_Choice.png" itemprop="thumbnail" alt="Image description" />
+									</a>
+									<figcaption itemprop="caption description">Image caption 1</figcaption>
+								</figure>
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Video01_Choice.png" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="animation/index.html" target="_self" class="image-fade" style="">Animation</a></div>
-													</td>
-												</tr>
-											</table>
+								<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+									<a href="wp-content/jpv/Madre2.png" itemprop="contentUrl" data-size="664x1024">
+										<div class="shade" style="margin-left: 33.3%;">
+											Concept Art
 										</div>
-									</div>
-								</div>
+										<img src="wp-content/jpv/Madre2_Choice.png" itemprop="thumbnail" alt="Image description" />
+									</a>
+									<figcaption itemprop="caption description">Image caption 2</figcaption>
+								</figure>
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Graphic Desing.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="graphic-desing/index.html" target="_self" class="image-fade" style="">Graphic Desing</a></div>
-													</td>
-												</tr>
-											</table>
+								<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+									<a href="wp-content/jpv/Madre1.png" itemprop="contentUrl" data-size="724x1024">
+										<div class="shade" style="margin-left: 66.6%;">
+											Concept Art
 										</div>
-									</div>
-								</div>
+										<img src="wp-content/jpv/Madre1_Choice.png" itemprop="thumbnail" alt="Image description" />
+									</a>
+									<figcaption itemprop="caption description">Image caption 3</figcaption>
+								</figure>
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Sketch.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="sketch/index.html" target="_self" class="image-fade" style="">Sketch</a></div>
-													</td>
-												</tr>
-											</table>
+								<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+									<a href="wp-content/jpv/Graphic Desing.jpg" itemprop="contentUrl" data-size="1524x1024">
+										<div class="shade" style="margin-top: 395px;">
+											Graphic Design
 										</div>
-									</div>
-								</div>
+										<img src="wp-content/jpv/Graphic Desing.jpg" itemprop="thumbnail" alt="Image description" />
+									</a>
+									<figcaption itemprop="caption description">Image caption 3</figcaption>
+								</figure>
 
-								<div class="wpb_column vc_column_container vc_col-sm-4">
-									<div class="q_image_with_text_over">
-										<div class="shader"></div><img itemprop="image" src="wp-content/jpv/Murales.jpg" alt="FILM" />
-										<div class="text">
-											<table>
-												<tr>
-													<td>
-														<div class="desc" style="height: 100%; padding-top: 201px;"><a itemprop="url" href="murals/index.html" target="_self" class="image-fade" style="">Murals</a></div>
-													</td>
-												</tr>
-											</table>
+								<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+									<a href="wp-content/jpv/Sketch.jpg" itemprop="contentUrl" data-size="824x1024">
+										<div class="shade" style="margin-left: 33.3%; margin-top: 395px;">
+											Sketches
 										</div>
-									</div>
-								</div>
+										<img src="wp-content/jpv/Sketch.jpg" itemprop="thumbnail" alt="Image description" />
+									</a>
+									<figcaption itemprop="caption description">Image caption 3</figcaption>
+								</figure>
 
 							</div>
 						</div>
 
-						<div class="vc_row wpb_row section vc_row-fluid  grid_section" style='background-color:#ffffff; padding-top:20px; padding-bottom:20px; text-align:center;'>
-							<div class=" section_inner clearfix">
-								<div class='section_inner_margin clearfix'>
-									<div class="wpb_column vc_column_container vc_col-sm-12">
-										<div class="vc_column-inner">
-											<div class="wpb_wrapper">
-												<div class="separator  transparent center  " style=""></div>
-												<div class="wpb_text_column wpb_content_element ">
-													<div class="wpb_wrapper">
-														<p style="text-align: center;">Website by <a href="https://github.com/cis321" target="_blank">Cis</a></p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		<!-- Background of PhotoSwipe.
+					 It's a separate element, as animating opacity is faster than rgba(). -->
+		<div class="pswp__bg"></div>
+
+		<!-- Slides wrapper with overflow:hidden. -->
+		<div class="pswp__scroll-wrap">
+
+			<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+			<!-- don't modify these 3 pswp__item elements, data is added later on. -->
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+
+			<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+			<div class="pswp__ui pswp__ui--hidden">
+
+				<div class="pswp__top-bar">
+
+					<!--  Controls are self-explanatory. Order can be changed. -->
+
+					<div class="pswp__counter"></div>
+
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+					<!-- element will get class pswp__preloader--active when preloader is running -->
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+
 			</div>
+
 		</div>
 
 	</div>
+
 	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
+	<script src="index.js"></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/qode-like.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/plugins/jquery.carouFredSel-6.2.1.min8e83.js?ver=4.9.10'></script>
@@ -477,7 +514,6 @@
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default_dynamic3df9.js?ver=1540322956'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/default.min8e83.js?ver=4.9.10'></script>
 	<script type='text/javascript' src='wp-content/themes/bridge/js/custom_js3df9.js?ver=1540322956'></script>
-	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min24b2.js?ver=5.5.5'></script>
 </body>
 
 </html>
