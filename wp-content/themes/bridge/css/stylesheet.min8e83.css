@@ -1205,7 +1205,7 @@ header.sticky .logo_wrapper, header.sticky.centered_logo .logo_wrapper {
 }
 
 header.sticky .side_menu_button, header:not(.sticky) .header_menu_bottom .side_menu_button {
-  height: 60px
+  height: 100px
 }
 
 header.sticky .drop_down .second {
@@ -1572,7 +1572,7 @@ nav.main_menu ul li a {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  line-height: 100px;
+  line-height: 39px;
   padding: 0;
   margin: 0;
   cursor: pointer
@@ -1583,7 +1583,7 @@ nav.main_menu>ul>li>a>i.menu_icon {
 }
 
 .dark.sticky nav.main_menu>ul>li.active>a, .dark.sticky nav.main_menu>ul>li>a, .dark.sticky nav.main_menu>ul>li>a:hover, .light.sticky nav.main_menu>ul>li.active>a, .light.sticky nav.main_menu>ul>li>a, .light.sticky nav.main_menu>ul>li>a:hover, header.sticky nav.main_menu>ul>li>a {
-  line-height: 60px
+  line-height: 39px
 }
 
 nav.main_menu>ul>li>a {
@@ -2291,7 +2291,7 @@ header.fixed_top_header .top_header nav.main_menu>ul>li:first-child>a {
 .mobile_menu_button {
   display: none;
   float: left;
-  height: 100px;
+  height: 60px;
   margin: 0 20px 0 0
 }
 
@@ -2441,7 +2441,7 @@ header:not(.centered_logo) .header_fixed_right_area {
   right: 0;
   top: 0;
   height: 100%;
-  line-height: 100px
+  line-height: 60px
 }
 
 .sticky .header_menu_bottom .main_menu {
