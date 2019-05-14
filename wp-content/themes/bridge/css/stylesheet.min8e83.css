@@ -1530,15 +1530,9 @@ header.centered_logo nav.main_menu>ul {
 
 nav.main_menu {
   position: absolute;
-  left: 50%;
+  left: 41%;
   z-index: 100;
   text-align: left
-}
-
-nav.main_menu.right {
-  position: relative;
-  left: auto;
-  float: right
 }
 
 nav.main_menu.left {
