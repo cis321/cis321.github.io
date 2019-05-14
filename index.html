@@ -88,10 +88,52 @@
 			text-justify: inter-word;
 		}
 
+		@media screen and (max-width: 1000px) {
+			.image-container {
+				margin-right: -3.2px;
+				position: relative;
+				text-align: center;
+				color: white;
+				white-space: nowrap;
+				display: inline-block;
+			}
+		}
+
+		@media screen and (min-width: 1000px) {
+			.image-container {
+				margin-right: -3.2px;
+				width: 20%;
+				position: relative;
+				text-align: center;
+				color: white;
+				display: inline-block;
+			}
+		}
+
 		.galery-button {
-			width: 20%;
 			padding: 0;
-			margin-right: -3px;
+			transition: 0.5s;
+		}
+
+		.image-container:hover .galery-button {
+			-webkit-filter: brightness(50%);
+			filter: brightness(50%);
+			transition: 0.5s;
+		}
+
+		.image-text-centered {
+			display: none;
+			white-space: nowrap;
+		}
+
+		.image-container:hover .image-text-centered {
+			font-family: "century-gothic";
+			font-size: 30px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: inherit;
 		}
 
 		.shade:hover {
@@ -103,6 +145,7 @@
 			font-size: 30px;
 			opacity: 1;
 			font-weight: bold;
+			display: inline;
 		}
 
 		.shade {
@@ -245,29 +288,40 @@
 						<h1 class="about-title">About Me</h1>
 						<div class="about-text">
 							<p class="about-p">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a fringilla tortor, vel bibendum tellus. Suspendisse turpis massa, vehicula ac lorem eu, ornare scelerisque odio. Praesent nec dapibus metus, nec cursus purus. Maecenas pharetra mollis libero
-								non finibus. Mauris eu tristique purus. Suspendisse id ornare lorem, non euismod massa. Nullam cursus, tellus a dignissim ultrices, neque est sollicitudin tortor, a congue sem ante nec turpis. Donec a bibendum turpis, id pellentesque nibh. Orci
-								varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus cursus fermentum eros, a venenatis eros commodo eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a fringilla tortor, vel bibendum tellus. Suspendisse turpis massa, vehicula ac lorem eu, ornare scelerisque odio. Praesent nec dapibus metus, nec cursus purus. Maecenas pharetra
+								mollis libero
+								non finibus. Mauris eu tristique purus. Suspendisse id ornare lorem, non euismod massa. Nullam cursus, tellus a dignissim ultrices, neque est sollicitudin tortor, a congue sem ante nec turpis. Donec a bibendum turpis, id pellentesque nibh.
+								Orci
+								varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus cursus fermentum eros, a venenatis eros commodo eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+								Suspendisse
 								sagittis dolor ut elit tincidunt luctus.
 							</p>
 							<p class="about-p">
-								Ut egestas orci ut mollis semper. Nunc volutpat tempor nisi non molestie. Nam ut risus ut magna vestibulum lobortis. Donec eu quam ex. Vivamus mollis, tellus a cursus tempus, purus ex congue justo, non mattis mi justo vel augue. Ut eu lorem ut massa volutpat
-								sodales. Nullam quis felis semper, posuere augue vel, maximus magna. Nullam lobortis massa id diam feugiat, quis ultrices nunc ultrices. Praesent rhoncus gravida elit vel tempus. Maecenas purus lectus, fringilla quis sem sed, posuere consequat
-								ipsum. Pellentesque ultrices cursus nunc. Suspendisse ac leo cursus, auctor sapien consectetur, fringilla metus. Sed nec libero et ante placerat commodo eget sed ipsum. Aenean pellentesque fermentum ipsum eget dignissim. Duis facilisis laoreet
+								Ut egestas orci ut mollis semper. Nunc volutpat tempor nisi non molestie. Nam ut risus ut magna vestibulum lobortis. Donec eu quam ex. Vivamus mollis, tellus a cursus tempus, purus ex congue justo, non mattis mi justo vel augue. Ut eu lorem
+								ut massa volutpat
+								sodales. Nullam quis felis semper, posuere augue vel, maximus magna. Nullam lobortis massa id diam feugiat, quis ultrices nunc ultrices. Praesent rhoncus gravida elit vel tempus. Maecenas purus lectus, fringilla quis sem sed, posuere
+								consequat
+								ipsum. Pellentesque ultrices cursus nunc. Suspendisse ac leo cursus, auctor sapien consectetur, fringilla metus. Sed nec libero et ante placerat commodo eget sed ipsum. Aenean pellentesque fermentum ipsum eget dignissim. Duis facilisis
+								laoreet
 								ligula.
 							</p>
 							<p class="about-p">
-								Sed cursus lobortis lectus. Phasellus tincidunt metus non felis hendrerit luctus. Phasellus at volutpat arcu. Proin in ullamcorper nibh. Maecenas bibendum interdum felis vel venenatis. Curabitur ac augue non nisl aliquet ornare vel eget dolor. Aliquam
+								Sed cursus lobortis lectus. Phasellus tincidunt metus non felis hendrerit luctus. Phasellus at volutpat arcu. Proin in ullamcorper nibh. Maecenas bibendum interdum felis vel venenatis. Curabitur ac augue non nisl aliquet ornare vel eget
+								dolor. Aliquam
 								venenatis eget eros et feugiat. Maecenas suscipit sollicitudin aliquet. Nullam maximus mauris a elit malesuada maximus.
 							</p>
 							<p class="about-p">
-								Nunc semper euismod tortor et pulvinar. Vivamus fringilla lacus sapien, vitae vestibulum mauris luctus sit amet. Integer risus eros, porttitor interdum enim vel, mattis lacinia diam. Mauris at metus lacus. Nam rutrum justo at odio blandit placerat. Orci
-								varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus congue diam purus, ac cursus lacus tempor sed. Donec in malesuada nibh, vel viverra augue. Orci varius natoque penatibus et magnis dis parturient montes,
+								Nunc semper euismod tortor et pulvinar. Vivamus fringilla lacus sapien, vitae vestibulum mauris luctus sit amet. Integer risus eros, porttitor interdum enim vel, mattis lacinia diam. Mauris at metus lacus. Nam rutrum justo at odio blandit
+								placerat. Orci
+								varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus congue diam purus, ac cursus lacus tempor sed. Donec in malesuada nibh, vel viverra augue. Orci varius natoque penatibus et magnis dis parturient
+								montes,
 								nascetur ridiculus mus. Maecenas sit amet ex est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vulputate quam et nulla vulputate, porta pretium ex tempus.
 							</p>
 							<p class="about-p">
-								Nam ultrices purus vel mi condimentum posuere. Duis non mattis ex. Curabitur a orci vel mi semper finibus. Phasellus vel rutrum neque. Quisque ac justo ac dui consectetur consequat cursus ac nulla. Maecenas non elementum ligula. Vestibulum convallis sollicitudin
-								mi in ornare. In blandit metus et congue ultricies. Fusce ut quam lectus. Curabitur elementum vulputate rutrum. Vivamus ipsum urna, dictum nec enim ut, congue auctor ligula. Sed a lobortis massa, vel tempor urna. Etiam dapibus vehicula sapien
+								Nam ultrices purus vel mi condimentum posuere. Duis non mattis ex. Curabitur a orci vel mi semper finibus. Phasellus vel rutrum neque. Quisque ac justo ac dui consectetur consequat cursus ac nulla. Maecenas non elementum ligula. Vestibulum
+								convallis sollicitudin
+								mi in ornare. In blandit metus et congue ultricies. Fusce ut quam lectus. Curabitur elementum vulputate rutrum. Vivamus ipsum urna, dictum nec enim ut, congue auctor ligula. Sed a lobortis massa, vel tempor urna. Etiam dapibus vehicula
+								sapien
 							</p>
 						</div>
 					</div>
@@ -310,11 +364,30 @@
 									<div class="wpb_column vc_column_container vc_col-sm-12">
 										<div class="vc_column-inner">
 
-											<img class="galery-button" id="concept-art" src="wp-content/jpv/Madre1_Choice.png">
-											<img class="galery-button" id="sketches" src="wp-content/jpv/Madre1_Choice.png">
-											<img class="galery-button" id="murals" src="wp-content/jpv/Madre1_Choice.png">
-											<img class="galery-button" id="graphic-desing" src="wp-content/jpv/Graphic Desing.jpg">
-											<img class="galery-button" id="animation" src="wp-content/jpv/Madre1_Choice.png">
+											<div class="image-container">
+												<img class="galery-button" id="concept-art" src="wp-content/jpv/Concept_Choice.png">
+												<div class="image-text-centered">Concept Art</div>
+											</div>
+
+											<div class="image-container">
+												<img class="galery-button" id="sketches" src="wp-content/jpv/Sketches_Choice.png">
+												<div class="image-text-centered">Sketches</div>
+											</div>
+
+											<div class="image-container">
+												<img class="galery-button" id="murals" src="wp-content/jpv/Murals_Choice.png">
+												<div class="image-text-centered">Murals</div>
+											</div>
+
+											<div class="image-container">
+												<img class="galery-button" id="graphic-desing" src="wp-content/jpv/Graphic_Desing_Choice.png">
+												<span class="image-text-centered">Graphic Desing</span>
+											</div>
+
+											<div class="image-container">
+												<img class="galery-button" id="animation" src="wp-content/jpv/Animation_Choice.png">
+												<div class="image-text-centered">Animation</div>
+											</div>
 
 										</div>
 									</div>
@@ -397,10 +470,10 @@
 				</div>
 
 				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-	            </button>
+				</button>
 
 				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-	            </button>
+				</button>
 
 				<div class="pswp__caption">
 					<div class="pswp__caption__center"></div>
